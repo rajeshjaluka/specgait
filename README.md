@@ -3,7 +3,7 @@
 
 ### Purpose
 When developers delegate the entire lifecycle to an agent without strict process gates, three systemic failures happen immediately:
-* **The Telepathic Fallacy:** Developers assume the LLM implicitly understands edge cases, security contexts, and business intent that were never written down.
+* **The Intelligence Fallacy:** Developers assume the LLM implicitly understands edge cases, security contexts, and business intent that were never written down.
 * **Review Fatigue Blindness:** An agent can generate 500 lines of complex code in seconds. No human can deeply review code at that velocity. Eventually, developers just hit "Merge" and pray, abdicating their role as a gatekeeper.
 * **Architecture Erosion:** Agents optimize for localized code changes to close a ticket quickly. Without macro-level structural discipline, the codebase quickly becomes unmaintainable and unsupportable.
 
@@ -36,9 +36,9 @@ The **SpecGait** workflow brings the discipline of traditional software engineer
 | 2. Feasibility and Prioritization | Kill unviable ideas cheaply and rank the rest |
 | 3. Experience Design | Low-fidelity to high-fidelity design, or interface contracts |
 | 4. Architecture | Data contracts, threat model and decision records |
-| 5. Test and Eval Design | Define done for the sprint scope before building |
+| 5. Test and Evaluate Design | Define done for the sprint scope before building |
 | 6. Build | Skeleton, refine, bind to design, harden, independent review |
-| 7. Verification | Prove the product meets the spec and is safe to ship |
+| 7. Verify | Prove the product meets the spec and is safe to ship |
 | 8. Release and Operate | Roll out safely, watch, learn and feed back |
 
 
