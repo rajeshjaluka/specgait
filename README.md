@@ -18,6 +18,7 @@ The **SpecGait** workflow brings the discipline of traditional software engineer
 * **Close the loop.** Production signals create new epics.
 
 ### Roles and Resposibilities
+
 | Roles | Responsibility |
 | ----------- | ----------- |
 | Business User | Owns the problem, scenarios and value; approves intent, design and release readiness |
@@ -29,7 +30,8 @@ The **SpecGait** workflow brings the discipline of traditional software engineer
 | Reviewer Agent | Independent agent that reviews the Coding Agent's work and has not seen how it was produced |
 
 ### Workflow Overview
-| Roles | Responsibility |
+
+| Phase | Description |
 | ----------- | ----------- |
 | 0. Foundations | Give agents durable context, limits and Definition of Done templates |
 | 1. Intent and Spec | Turn business needs into testable Behavioral Assertions |
