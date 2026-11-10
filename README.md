@@ -4,7 +4,7 @@
 ### Purpose
 When developers delegate the entire lifecycle to an agent without strict process gates, three systemic failures happen immediately:
 * **The Intelligence Fallacy:** Developers assume the LLM implicitly understands edge cases, security contexts, and business intent that were never written down.
-* **Review Fatigue Blindness:** An agent can generate 500 lines of complex code in seconds. No human can deeply review code at that velocity. Eventually, developers just hit "Merge" and pray, abdicating their role as a gatekeeper.
+* **Review Fatigue:** An agent can generate 500 lines of complex code in seconds. No human can deeply review code at that velocity. Eventually, developers just hit "Merge" and pray, abdicating their role as a gatekeeper.
 * **Architecture Erosion:** Agents optimize for localized code changes to close a ticket quickly. Without macro-level structural discipline, the codebase quickly becomes unmaintainable and unsupportable.
 
 The **SpecGait** workflow brings the discipline of traditional software engineering to AI-driven delivery: every step produces a named, versioned artifact, and a human approves at each gate. It is iterative, not sequential. Any phase can reopen an earlier one, and the re-entry rules in the cross-cutting section say what becomes stale when it does.
