@@ -1,0 +1,5 @@
+# Default maintainer for the entire repository
+*                   @rajeshjaluka
+# Core configurations and agent definitions
+/.github/           @rajeshjaluka
+/agents/            @rajeshjaluka
